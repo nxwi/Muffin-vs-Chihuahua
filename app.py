@@ -58,9 +58,8 @@ gradient_text_html = """
 """
 
 st.markdown(gradient_text_html, unsafe_allow_html=True)
-st.subheader("**Is it a Muffin or a Chihuahua?** Upload an image to find out!")
 st.image('image.jpg', width=700)
-
+st.subheader("**Is it a Muffin or a Chihuahua?** Upload an image to find out!")
 
 # Sidebar
 st.sidebar.markdown('# Made by: [Naswih](https://github.com/nxwi)')
